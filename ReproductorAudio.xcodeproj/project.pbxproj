@@ -14,6 +14,7 @@
 		62DD2E391D9D832B00F68D74 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DD2E381D9D832B00F68D74 /* Images.xcassets */; };
 		62DD2E3C1D9D832B00F68D74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62DD2E3A1D9D832B00F68D74 /* LaunchScreen.xib */; };
 		62DD2E481D9D832B00F68D74 /* ReproductorAudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DD2E471D9D832B00F68D74 /* ReproductorAudioTests.swift */; };
+		62DD2E521D9D83C400F68D74 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DD2E511D9D83C400F68D74 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		62DD2E411D9D832B00F68D74 /* ReproductorAudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproductorAudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DD2E461D9D832B00F68D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62DD2E471D9D832B00F68D74 /* ReproductorAudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproductorAudioTests.swift; sourceTree = "<group>"; };
+		62DD2E511D9D83C400F68D74 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62DD2E521D9D83C400F68D74 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		62DD2E201D9D832B00F68D74 = {
 			isa = PBXGroup;
 			children = (
+				62DD2E511D9D83C400F68D74 /* AVFoundation.framework */,
 				62DD2E2B1D9D832B00F68D74 /* ReproductorAudio */,
 				62DD2E441D9D832B00F68D74 /* ReproductorAudioTests */,
 				62DD2E2A1D9D832B00F68D74 /* Products */,
@@ -413,6 +417,7 @@
 				62DD2E4D1D9D832B00F68D74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62DD2E4E1D9D832B00F68D74 /* Build configuration list for PBXNativeTarget "ReproductorAudioTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +426,7 @@
 				62DD2E501D9D832B00F68D74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
